@@ -71,3 +71,8 @@ Term::Term(std::string term)
         }
     }
 }
+
+Term::~Term() {
+    delete this->a;
+    delete this->b;
+}

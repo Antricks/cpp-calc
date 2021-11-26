@@ -13,6 +13,7 @@ private:
 
 public:
     Term(std::string term);
+    ~Term();
     double eval();
 };
 
